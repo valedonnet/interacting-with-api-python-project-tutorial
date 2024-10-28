@@ -1,0 +1,18 @@
+En resumen, estás configurando un proyecto en Python para interactuar con la API de Spotify y analizar datos sobre música. 
+
+Resumen de pasos:
+
+1_Configurar el acceso a la API de Spotify: Creas una cuenta de desarrollador en Spotify y una aplicación para obtener claves de acceso (Client ID y Client Secret)
+ que te permitirán usar su API.
+
+2_Proteger tus claves: Guardas esas claves en un archivo .env para mantenerlas seguras y usas la biblioteca python-dotenv para que tu código pueda acceder a ellas sin 
+que estén directamente en el código.
+
+3_Conectar a la API de Spotify: Utilizas la biblioteca spotipy para conectarte a Spotify y solicitar datos, como las canciones más populares de un artista.
+
+4_Organizar los datos: Con pandas, transformas los datos de canciones obtenidos en una tabla (DataFrame) para analizarlos más fácilmente.
+
+5_Visualizar relaciones: Con matplotlib, generas un gráfico de dispersión para ver si existe alguna relación entre la popularidad de las canciones y su duración,
+ y analizar si las canciones más cortas tienden a ser más populares.
+
+Este flujo te permite acceder, organizar y analizar datos musicales de Spotify de forma fácil y visual.
